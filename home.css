@@ -1,0 +1,281 @@
+body
+{
+    max-width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+#header
+{
+   padding-bottom: 0px;
+
+}
+
+a
+{
+    text-decoration: none; 
+}
+
+h1
+{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: Helvetica;
+    margin-bottom: 5px;
+    
+}
+
+h2
+{
+    font-size: 25px;
+    font-family: Helvetica;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin: 0;    
+    animation-delay: 1.75s;
+    
+}
+
+h3
+{
+    font-size: 20px;
+    font-family: Helvetica;
+    display: inline-block;
+    float: right;
+    padding-top: 25px;
+    
+    
+}
+
+h4
+{
+    width: 660px;
+    float: right;
+    padding-right: 50px;
+    margin: 0;
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-indent: 2em;
+    
+}
+
+h6
+{
+    width: 900px;
+    float: right;
+    padding-right: 50px;
+    padding-top: 15px;
+    margin: 0;
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-indent: 2em;  
+}
+
+h7
+{
+    font-size: 30px;
+    font-family: Helvetica;
+    letter-spacing: 1px;
+}
+
+h8
+{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+h9
+{
+    font-size: 15px;
+    font-family: Helvetica;
+    color: #353535;
+    padding-top: 5x;
+}
+
+h10
+{
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-indent: 2em;
+    
+}
+
+
+.summary
+{
+    padding-top: 10px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+
+    
+}
+
+#tours
+{
+    padding-top: 30px;
+}
+.release
+{
+    font-size: 15px;
+    color: #353535;
+}
+
+h5
+{
+    visibility: hidden;
+}
+
+#freefall
+{
+    padding-right: 596px;
+}
+
+#ender
+{
+    padding-right: 576px;
+}
+
+#hue
+{
+    padding-right: 379px;
+}
+
+#poke
+{
+    padding-right: 261px;
+}
+
+#syrah
+{
+    padding-right: 600px;
+}
+
+#fak
+{
+    padding-right: 517px;
+}
+
+.img
+{
+    height: 150px;
+    padding-right: 50px;
+    display: inline-block;
+    margin: auto;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    background-color: #333;
+
+}
+
+li
+{
+    display: inline;
+    font-size: 22px;
+    font-family: Helvetica;
+    
+}
+
+li a 
+{
+    color: white;
+    padding-right: 35px;
+    padding-left: 35px;
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+}
+
+li a:hover
+{
+   background-color: black; 
+    padding: 5px 35px 5px 35px;
+}
+
+.profilediv
+{
+    padding-top: 100px;
+    
+}
+
+.profile
+{
+    padding-left: 50px;
+    width: 200px;
+}
+
+
+#tracks 
+{
+    animation-delay: 2s;
+}
+
+#socialmedia
+{
+    margin: auto;
+    text-align: center;
+    word-spacing: 5px;
+}
+
+.sdtracks
+{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer
+{
+    text-align: center; 
+}
+
+.fa 
+{
+    padding: 10px;
+    font-size: 30px;
+    width: 16px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.25s ease;
+}
+
+.fa:hover
+{
+    background-color: black;
+}
+
+.fa-facebook {
+    background: #353535;
+    color: white;
+}
+
+
+.fa-twitter {
+    background: #353535;
+    color: white;
+}
+
+.fa-instagram {
+    background: #353535;
+    color: white;
+}
+
+.fa-google {
+    background: #353535;
+    color: white;
+}
+
+a
+{
+    color: inherit;
+}

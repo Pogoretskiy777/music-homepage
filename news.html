@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Joseph Pogoretskiy</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="pogomusic" class="animated fadeIn"><a href="home.html">Pogoretskiy Music</a></h1>
+        </div>
+        <div id="bar">
+            <ul id="topbar" class="animated fadeInDown">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="animated fadeInDown" style="animation-delay: .15s;">Upcoming Tours</h2>
+              <div id="tours">
+                <h7 class="animated fadeInRight" style="animation-delay: .25s; display: block;">August 25</h7>
+                    <h8 style="display: block; animation-delay: .5s;" class="animated fadeInRight"><strong>The National</strong></h8>
+                        <h9 style="display: block; animation-delay: .75s;" class="animated fadeInRight">708 East Broad Street, Richmond, VA</h9>
+                <div id="map" style="width: 800px; height: 400px; background: white; animation-delay: 1.25s;" class="animated fadeIn"></div>
+                                <script>
+                                    function myMap() {
+                                        var mapOptions = {
+                                            center: new google.maps.LatLng(37.537597,-77.461588),
+                                                zoom: 10,
+                                                mapTypeId: google.maps.MapTypeId.ROADMAP
+                                            }
+                                        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                                        }
+                                </script>
+                                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB8X1nChOAfF_MwIuF7EpM0GsnyYrfjxI&callback=myMap"></script>
+              </div>
+        </div>
+        <div id="socialmedia" style="padding-top: 250px;">
+            <a href="#" class="fa fa-google animated fadeIn" style="animation-delay: 1.4s"></a>
+            <a href="#" class="fa fa-twitter animated fadeIn" style="animation-delay: 1.6s"></a>
+            <a href="#" class="fa fa-facebook animated fadeIn" style="animation-delay: 1.8s"></a>
+            <a href="#" class="fa fa-instagram animated fadeIn" style="animation-delay: 2s"></a>
+        </div>
+            <footer class="animated fadeInDown" style="animation-delay: 1.4s;">
+                <p>Pogoretskiy Music © 2018 ● All Rights Reserved</p>
+            </footer>
+    </body>
+</html>
