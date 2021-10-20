@@ -1,0 +1,1 @@
+This is a project I have been working on for my music hobby in 2018. This was to practice my HTML and CSS skills along with animations. Many of the songs are no longer up and the photo links are broken. I will be creating a new website for my music soon. 
